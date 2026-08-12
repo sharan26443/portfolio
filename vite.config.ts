@@ -4,6 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  base: '/portfolio/',
   return {
     plugins: [react(), tailwindcss()],
     resolve: {
